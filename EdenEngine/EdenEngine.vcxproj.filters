@@ -13,5 +13,89 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Class">
+      <UniqueIdentifier>{67f4d035-61b4-4ef8-8b2d-efd50c819ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ShaderCode">
+      <UniqueIdentifier>{26f8bd59-6c2d-4264-a03f-986a039ee6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DevelopmentKit">
+      <UniqueIdentifier>{3906712d-a7c1-41f4-aa0d-2b4263a42405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DevelopmentKit\ImGui">
+      <UniqueIdentifier>{d6add199-ea95-476d-ac97-5d24652663f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ComponentSource">
+      <UniqueIdentifier>{81a74a23-eda0-41be-8815-f11c5bd9afe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ComponentHeader">
+      <UniqueIdentifier>{2d2fd4bc-dbd0-4061-8caf-dbb9baccd6ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件\ComponentSource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Alibaba-PuHuiTi-Bold.ttf">
+      <Filter>资源文件</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGUI.hpp">
+      <Filter>头文件\ComponentHeader</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
