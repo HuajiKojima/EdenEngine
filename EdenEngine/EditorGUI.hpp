@@ -1,4 +1,8 @@
+// Eden Engine
 #pragma once
+#ifndef EDEN_EDITOR_GUI
+#define EDEN_EDITOR_GUI
+
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
 #include "imgui_impl_opengl3.h"
@@ -7,6 +11,7 @@
 #define EDEN_GUI_CLASSIC 0
 #define EDEN_GUI_DARK 1
 #define EDEN_GUI_LIGHT 2
+
 
 namespace EDEN 
 {
@@ -21,7 +26,7 @@ namespace EDEN
 		ImGui::CreateContext();
 		ImGuiIO & io = ImGui::GetIO();
 		(void)io;
-		io.Fonts->AddFontFromFileTTF(editorFont, 18, NULL, io.Fonts->GetGlyphRangesChineseFull());
+		io.Fonts->AddFontFromFileTTF(editorFont, 24.0f, NULL, io.Fonts->GetGlyphRangesChineseFull());
 		// Init Editor Style
 		//-----------------------------------------------------------------------------------------------
 		switch (editorStyle)
@@ -64,3 +69,4 @@ namespace EDEN
 		ImGui::DestroyContext();
 	}
 }
+#endif

@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\Class">
-      <UniqueIdentifier>{67f4d035-61b4-4ef8-8b2d-efd50c819ecc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\ShaderCode">
       <UniqueIdentifier>{26f8bd59-6c2d-4264-a03f-986a039ee6f6}</UniqueIdentifier>
     </Filter>
@@ -30,6 +27,9 @@
     </Filter>
     <Filter Include="头文件\ComponentHeader">
       <UniqueIdentifier>{2d2fd4bc-dbd0-4061-8caf-dbb9baccd6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DevelopmentKit\glad">
+      <UniqueIdentifier>{04461e4a-390b-453c-9a85-768ff8eb8a13}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +58,9 @@
       <Filter>源文件\DevelopmentKit\ImGui</Filter>
     </ClCompile>
     <ClCompile Include="glad.c">
+      <Filter>源文件\DevelopmentKit\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="EdenShader.cpp">
       <Filter>源文件\ComponentSource</Filter>
     </ClCompile>
   </ItemGroup>
@@ -97,5 +100,22 @@
     <ClInclude Include="EditorGUI.hpp">
       <Filter>头文件\ComponentHeader</Filter>
     </ClInclude>
+    <ClInclude Include="GlobalVariable.h">
+      <Filter>头文件\ComponentHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="EdenCore.hpp">
+      <Filter>源文件\ComponentSource</Filter>
+    </ClInclude>
+    <ClInclude Include="EdenShader.h">
+      <Filter>头文件\ComponentHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ObjectVertex.vert">
+      <Filter>源文件\ShaderCode</Filter>
+    </None>
+    <None Include="ObjectLight.frag">
+      <Filter>源文件\ShaderCode</Filter>
+    </None>
   </ItemGroup>
 </Project>
