@@ -151,26 +151,16 @@
     <ClCompile Include="DevelopmentKit\ImGui\imgui_impl_opengl3.cpp" />
     <ClCompile Include="DevelopmentKit\ImGui\imgui_impl_win32.cpp" />
     <ClCompile Include="DevelopmentKit\ImGui\imgui_widgets.cpp" />
-    <ClCompile Include="glad.c" />
-    <ClCompile Include="imgui.cpp" />
-    <ClCompile Include="imgui_demo.cpp" />
-    <ClCompile Include="imgui_draw.cpp" />
-    <ClCompile Include="imgui_impl_glfw.cpp" />
-    <ClCompile Include="imgui_impl_opengl3.cpp" />
-    <ClCompile Include="imgui_impl_win32.cpp" />
-    <ClCompile Include="imgui_widgets.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="EdenShader.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Font Include="Alibaba-PuHuiTi-Bold.ttf" />
     <Font Include="Source\Alibaba-PuHuiTi-Bold.ttf" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ComponentHeader\EdenCore.hpp" />
-    <ClInclude Include="ComponentHeader\EdenShader.h" />
     <ClInclude Include="ComponentHeader\EditorGUI.hpp" />
     <ClInclude Include="ComponentHeader\GlobalVariable.h" />
+    <ClInclude Include="ComponentSource\EdenShader.h" />
     <ClInclude Include="DevelopmentKit\ImGui\imconfig.h" />
     <ClInclude Include="DevelopmentKit\ImGui\imgui.h" />
     <ClInclude Include="DevelopmentKit\ImGui\imgui_impl_glfw.h" />
@@ -180,23 +170,8 @@
     <ClInclude Include="DevelopmentKit\ImGui\imstb_rectpack.h" />
     <ClInclude Include="DevelopmentKit\ImGui\imstb_textedit.h" />
     <ClInclude Include="DevelopmentKit\ImGui\imstb_truetype.h" />
-    <ClInclude Include="EdenCore.hpp" />
-    <ClInclude Include="EditorGUI.hpp" />
-    <ClInclude Include="GlobalVariable.h" />
-    <ClInclude Include="imconfig.h" />
-    <ClInclude Include="imgui.h" />
-    <ClInclude Include="imgui_impl_glfw.h" />
-    <ClInclude Include="imgui_impl_opengl3.h" />
-    <ClInclude Include="imgui_impl_win32.h" />
-    <ClInclude Include="imgui_internal.h" />
-    <ClInclude Include="imstb_rectpack.h" />
-    <ClInclude Include="imstb_textedit.h" />
-    <ClInclude Include="imstb_truetype.h" />
-    <ClInclude Include="EdenShader.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ObjectLight.frag" />
-    <None Include="ObjectVertex.vert" />
     <None Include="ShaderCode\ObjectLight.frag" />
     <None Include="ShaderCode\ObjectVertex.vert" />
   </ItemGroup>
