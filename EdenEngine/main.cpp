@@ -5,8 +5,8 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include "EdenCore.hpp"
-#include "GlobalVariable.h"
+#include "ComponentHeader/EdenCore.hpp"
+#include "ComponentHeader/GlobalVariable.h"
 
 int main()
 {

@@ -63,9 +63,39 @@
     <ClCompile Include="EdenShader.cpp">
       <Filter>源文件\ComponentSource</Filter>
     </ClCompile>
+    <ClCompile Include="ComponentSource\EdenShader.cpp">
+      <Filter>源文件\ComponentSource</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopmentKit\ImGui\imgui.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_demo.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_draw.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_impl_glfw.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_impl_win32.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_widgets.cpp">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopmentKit\glad\glad.c">
+      <Filter>源文件\DevelopmentKit\glad</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Font Include="Alibaba-PuHuiTi-Bold.ttf">
+      <Filter>资源文件</Filter>
+    </Font>
+    <Font Include="Source\Alibaba-PuHuiTi-Bold.ttf">
       <Filter>资源文件</Filter>
     </Font>
   </ItemGroup>
@@ -109,12 +139,57 @@
     <ClInclude Include="EdenShader.h">
       <Filter>头文件\ComponentHeader</Filter>
     </ClInclude>
+    <ClInclude Include="ComponentHeader\EdenCore.hpp">
+      <Filter>头文件\ComponentHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentHeader\EdenShader.h">
+      <Filter>头文件\ComponentHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentHeader\EditorGUI.hpp">
+      <Filter>头文件\ComponentHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentHeader\GlobalVariable.h">
+      <Filter>头文件\ComponentHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopmentKit\ImGui\imconfig.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopmentKit\ImGui\imgui.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopmentKit\ImGui\imgui_impl_glfw.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopmentKit\ImGui\imgui_impl_opengl3.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopmentKit\ImGui\imgui_impl_win32.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopmentKit\ImGui\imgui_internal.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopmentKit\ImGui\imstb_rectpack.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopmentKit\ImGui\imstb_textedit.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopmentKit\ImGui\imstb_truetype.h">
+      <Filter>源文件\DevelopmentKit\ImGui</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ObjectVertex.vert">
       <Filter>源文件\ShaderCode</Filter>
     </None>
     <None Include="ObjectLight.frag">
+      <Filter>源文件\ShaderCode</Filter>
+    </None>
+    <None Include="ShaderCode\ObjectLight.frag">
+      <Filter>源文件\ShaderCode</Filter>
+    </None>
+    <None Include="ShaderCode\ObjectVertex.vert">
       <Filter>源文件\ShaderCode</Filter>
     </None>
   </ItemGroup>

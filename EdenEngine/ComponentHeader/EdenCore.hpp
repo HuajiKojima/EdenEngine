@@ -8,8 +8,8 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include "EditorGUI.hpp"
-#include "GlobalVariable.h"
+#include "ComponentHeader/EditorGUI.hpp"
+#include "ComponentHeader/GlobalVariable.h"
 
 namespace EDEN 
 {

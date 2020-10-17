@@ -17,7 +17,7 @@
 // Screen and viewport
 /*******************************************************************************************************/
 GLFWwindow * editorWindow;
-const char * editorFont = "Alibaba-PuHuiTi-Bold.ttf";
+const char * editorFont = "Source/Alibaba-PuHuiTi-Bold.ttf";
 int ScreenWidth = 800;
 int ScreenHeight = 600;
 /*******************************************************************************************************/

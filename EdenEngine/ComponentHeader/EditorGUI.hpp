@@ -3,9 +3,9 @@
 #ifndef EDEN_EDITOR_GUI
 #define EDEN_EDITOR_GUI
 
-#include "imgui.h"
-#include "imgui_impl_glfw.h"
-#include "imgui_impl_opengl3.h"
+#include "DevelopmentKit/ImGui/imgui.h"
+#include "DevelopmentKit/ImGui/imgui_impl_glfw.h"
+#include "DevelopmentKit/ImGui/imgui_impl_opengl3.h"
 #include <GLFW/glfw3.h>
 
 #define EDEN_GUI_CLASSIC 0

@@ -142,6 +142,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ComponentSource\EdenShader.cpp" />
+    <ClCompile Include="DevelopmentKit\glad\glad.c" />
+    <ClCompile Include="DevelopmentKit\ImGui\imgui.cpp" />
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="DevelopmentKit\ImGui\imgui_widgets.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="imgui.cpp" />
     <ClCompile Include="imgui_demo.cpp" />
@@ -155,8 +164,22 @@
   </ItemGroup>
   <ItemGroup>
     <Font Include="Alibaba-PuHuiTi-Bold.ttf" />
+    <Font Include="Source\Alibaba-PuHuiTi-Bold.ttf" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ComponentHeader\EdenCore.hpp" />
+    <ClInclude Include="ComponentHeader\EdenShader.h" />
+    <ClInclude Include="ComponentHeader\EditorGUI.hpp" />
+    <ClInclude Include="ComponentHeader\GlobalVariable.h" />
+    <ClInclude Include="DevelopmentKit\ImGui\imconfig.h" />
+    <ClInclude Include="DevelopmentKit\ImGui\imgui.h" />
+    <ClInclude Include="DevelopmentKit\ImGui\imgui_impl_glfw.h" />
+    <ClInclude Include="DevelopmentKit\ImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="DevelopmentKit\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="DevelopmentKit\ImGui\imgui_internal.h" />
+    <ClInclude Include="DevelopmentKit\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="DevelopmentKit\ImGui\imstb_textedit.h" />
+    <ClInclude Include="DevelopmentKit\ImGui\imstb_truetype.h" />
     <ClInclude Include="EdenCore.hpp" />
     <ClInclude Include="EditorGUI.hpp" />
     <ClInclude Include="GlobalVariable.h" />
@@ -174,6 +197,8 @@
   <ItemGroup>
     <None Include="ObjectLight.frag" />
     <None Include="ObjectVertex.vert" />
+    <None Include="ShaderCode\ObjectLight.frag" />
+    <None Include="ShaderCode\ObjectVertex.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
